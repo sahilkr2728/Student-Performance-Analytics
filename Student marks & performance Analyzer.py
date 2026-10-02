@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-# ==========================================
+
 # STUDENT CLASS
-# ==========================================
+
 
 class Student:
 
@@ -41,9 +41,9 @@ class Student:
             return "F"
 
 
-# ==========================================
+
 # ADD STUDENT
-# ==========================================
+
 
 students = []
 
@@ -81,9 +81,8 @@ def add_student():
     print("Student added successfully!")
 
 
-# ==========================================
 # DISPLAY ALL STUDENTS
-# ==========================================
+
 
 def display_students():
 
@@ -122,9 +121,8 @@ def display_students():
         )
 
 
-# ==========================================
 # CREATE PANDAS DATAFRAME
-# ==========================================
+
 
 def create_dataframe():
 
@@ -147,9 +145,9 @@ def create_dataframe():
     return pd.DataFrame(data)
 
 
-# ==========================================
+
 # NUMPY SUBJECT ANALYSIS
-# ==========================================
+
 
 def numpy_analysis():
 
@@ -186,9 +184,9 @@ def numpy_analysis():
     print("Networking  :", np.min(networking_marks))
 
 
-# ==========================================
+
 # CLASS PERFORMANCE
-# ==========================================
+
 
 def class_analysis():
 
@@ -219,9 +217,9 @@ def class_analysis():
     print(df["Grade"].value_counts())
 
 
-# ==========================================
+
 # PANDAS DATA ANALYSIS
-# ==========================================
+
 
 def pandas_analysis():
 
@@ -242,9 +240,9 @@ def pandas_analysis():
     print(result[["Roll No", "Name", "Percentage", "Grade"]])
 
 
-# ==========================================
+
 # BAR CHART
-# ==========================================
+
 
 def bar_chart():
 
@@ -269,9 +267,9 @@ def bar_chart():
     plt.show()
 
 
-# ==========================================
+
 # SUBJECT-WISE BAR CHART
-# ==========================================
+
 
 def subject_chart():
 
@@ -308,9 +306,8 @@ def subject_chart():
     plt.show()
 
 
-# ==========================================
 # PIE CHART
-# ==========================================
+
 
 def pie_chart():
 
@@ -335,9 +332,9 @@ def pie_chart():
     plt.show()
 
 
-# ==========================================
+
 # HISTOGRAM
-# ==========================================
+
 
 def histogram():
 
@@ -362,9 +359,9 @@ def histogram():
     plt.show()
 
 
-# ==========================================
+
 # SEARCH STUDENT
-# ==========================================
+
 
 def search_student():
 
@@ -399,9 +396,9 @@ def search_student():
         print("Student not found.")
 
 
-# ==========================================
+
 # MAIN MENU
-# ==========================================
+
 
 def main():
 
@@ -464,9 +461,8 @@ def main():
             print("\nInvalid choice. Please try again.")
 
 
-# ==========================================
 # PROGRAM START
-# ==========================================
+
 
 if __name__ == "__main__":
     main()
